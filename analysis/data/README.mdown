@@ -1,0 +1,10 @@
+## **Lettuce project data**
+
+- Raw data located at `data/raw_data/rawdata_flavonoids.csv`
+- Data dictionary located at `data/data_dictionary_AC.txt`
+- Recieved 12th June 2019
+
+### Overview
+Three varieties of lettuce tested against three types of UV filter over 3 weeks.
+
+Samples taken weekly. Plant flavonoid content (ppm) abd plant biomass (g) are the two main variables tested.

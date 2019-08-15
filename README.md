@@ -8,3 +8,7 @@ In this session, a demonstration of an R/Rstudio workflow, that includes the ste
 
 The session is aimed at researchers with a working knowledge of R/RStudio. Using a broadly applicable example workflow, we will take you through the ‘FAIRification’ of a real life yet simple sample data set. We will finish by demonstrating the final packaging of the research project through the creation of a Binder RStudio instance.
 
+## Binder link
+<!-- badges: start -->
+[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bapalmer/RSS_Belfast_2019/master?urlpath=rstudio)
+<!-- badges: end -->

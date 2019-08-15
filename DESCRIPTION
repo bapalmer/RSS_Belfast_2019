@@ -1,5 +1,5 @@
 Type: Compendium
-Package: RSS Belfast 2019
+Package: RSS_Belfast_2019
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
@@ -8,8 +8,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Tuesday PM - Professional Development
-    Workshop
+Description: A FAIRified R workflow
 License: What license it uses
 Depends: 
     broom,

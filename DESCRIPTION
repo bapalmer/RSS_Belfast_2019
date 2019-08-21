@@ -1,15 +1,14 @@
 Type: Compendium
 Package: RSS_Belfast_2019
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.1
+Title: Data FAIRification Using RStudio Workflows
+Version: 0.0.2
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Brendan",
+           family = "Palmer",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: A FAIRified R workflow
-License: What license it uses
+           comment = c(ORCID = "0000-0001-6637-0723"))
+Description: A FAIRified R workflow using a simple real life data set
+License: MIT License
 Depends: 
     broom,
     ggbeeswarm,

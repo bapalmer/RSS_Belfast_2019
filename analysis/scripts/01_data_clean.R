@@ -13,13 +13,13 @@ library(broom)
 
 # Load and check the data -------------------------------------------------
 
-data <- read_csv("data/raw_data/rawdata_flavonoids.csv") 
+data <- read_csv("analysis/data/raw_data/rawdata_flavonoids.csv") 
 
 # View(data)
 
 # Check the data dictionary
 
-dict <- read_delim("data/data_dictionary_AC.txt", 
+dict <- read_delim("analysis/data/data_dictionary_AC.txt", 
                    "\t", escape_double = FALSE, trim_ws = TRUE)
 
 # View(dict)
@@ -48,7 +48,7 @@ data <- data %>%
 # Save a copy of the clean data -------------------------------------------
 
 # write_csv(data,
-#          paste("data/",
+#          paste("analysis/data/",
 #                Sys.Date(),
 #                "_clean_lettuce_data.csv",
 #                sep = ""))

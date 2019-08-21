@@ -5,7 +5,7 @@
 
 # Read in the clean lettuce data ------------------------------------------
 
-source("scripts/01_data_clean.R")
+source("analysis/scripts/01_data_clean.R")
 
 # Lettuce data preliminary plot -------------------------------------------
 
@@ -85,7 +85,7 @@ data_overview1
 
 # Save the image with a date tag
 
-# ggsave(paste("plots/", Sys.Date(), "_overview1_flavonoids.png",
+# ggsave(paste("analysis/plots/", Sys.Date(), "_overview1_flavonoids.png",
 #             sep = ""),
 #       data_overview1,
 #       width = 16,
@@ -130,7 +130,7 @@ data_overview2
 
 # Save the image with a date tag
 
-# ggsave(paste("plots/", Sys.Date(), "_overview2_flavonoids.png",
+# ggsave(paste("analysis/plots/", Sys.Date(), "_overview2_flavonoids.png",
 #             sep = ""),
 #       data_overview2,
 #       width = 16,
@@ -171,7 +171,7 @@ biomass_overview <- data %>%
 
 biomass_overview
 
-# ggsave(paste("plots/", Sys.Date(), "_biomass_overview.png",
+# ggsave(paste("analysis/plots/", Sys.Date(), "_biomass_overview.png",
 #             sep = ""),
 #       biomass_overview,
 #       width = 16,

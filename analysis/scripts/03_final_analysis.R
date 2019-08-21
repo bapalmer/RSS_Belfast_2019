@@ -5,7 +5,7 @@
 
 # Read in the clean lettuce data ------------------------------------------
 
-source("scripts/01_data_clean.R") 
+source("analysis/scripts/01_data_clean.R") 
 
 # Based on the intial plots we'll perform a test on differences of
 # flavonoid content between the lettuce varieties and filter type at week 3 
@@ -46,7 +46,7 @@ report_plot <- ggplot(test_data, aes(x = variety, y = flavonoids)) +
 
 report_plot
 
-# ggsave(paste("plots/", Sys.Date(), "_final_plot.png",
+# ggsave(paste("analysis/plots/", Sys.Date(), "_final_plot.png",
 #             sep = ""),
 #       report_plot,
 #       width = 16,
@@ -70,5 +70,5 @@ names(fla_aov) <- c("Variable", "Comparison", "Estimate",
 # End of project ----------------------------------------------------------
 
 # writeLines(capture.output(sessionInfo()),
-#            paste("docs/",Sys.Date(),"_end_of_project_session_info.txt",
+#            paste("analysis/docs/",Sys.Date(),"_end_of_project_session_info.txt",
 #                  sep = ""))

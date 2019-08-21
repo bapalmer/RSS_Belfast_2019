@@ -29,7 +29,7 @@ The plot below is call from the ggplot object entitled `report_plot` created in 
 
 ```{r Plots from script, echo = FALSE}
 
-source("scripts/03_final_analysis.R")
+source("analysis/scripts/03_final_analysis.R")
 
 # The location of the Rmd file dictates whether the path to other files is intact
 
@@ -43,7 +43,7 @@ Or we can also recreate the code within the R Markdown document as seen below.
 
 ```{r Plot from code, echo = TRUE}
 
-source("scripts/01_data_clean.R")
+source("analysis/scripts/01_data_clean.R")
 
 lettuce_variety <- c(cos = "Cos Dixter",
                      red = "Red Oakleaf",
@@ -103,7 +103,7 @@ No problem
 
 ```{r Make the reviewer happy, echo = FALSE}
 
-source("scripts/01_data_clean.R")
+source("analysis/scripts/01_data_clean.R")
 
 lettuce_variety <- c(cos = "Cos Dixter",
                      red = "Red Oakleaf",

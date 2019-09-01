@@ -12,3 +12,6 @@ The session is aimed at researchers with a working knowledge of R/RStudio. Using
 <!-- badges: start -->
 [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bapalmer/RSS_Belfast_2019/master?urlpath=rstudio)
 <!-- badges: end -->
+
+## DOI
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3383331.svg)](https://doi.org/10.5281/zenodo.3383331)

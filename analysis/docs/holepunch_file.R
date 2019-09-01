@@ -19,6 +19,7 @@ generate_badge() # This generates a badge for your readme.
 # ready ahead of time.
 build_binder()
 # 🤞🚀
+
 # Alternate setup method
 # If for some reason you really don't want to set up your project as a compendium, then set it up by creating runtime.txt and install.R. This build will take a very long time.
 

@@ -1,17 +1,18 @@
 Type: Compendium
 Package: RSS_Belfast_2019
 Title: Data FAIRification Using RStudio Workflows
-Version: 0.0.2
+Version: 0.0.1
 Authors@R: 
     person(given = "Brendan",
            family = "Palmer",
            role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-6637-0723"))
-Description: A FAIRified R workflow using a simple real life data set
+Description: A FAIRified R workflow
 License: MIT License
 Depends: 
     broom,
     ggbeeswarm,
+    holepunch,
     knitr,
     lubridate,
     rmarkdown,

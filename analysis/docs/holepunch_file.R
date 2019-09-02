@@ -3,7 +3,7 @@ write_compendium_description(package = "RSS_Belfast_2019",
                              description = "A FAIRified R workflow")
 # to write a description, with dependencies. Be sure to fill in placeholder text
 
-write_dockerfile(maintainer = "Brendan Palmer", r_date = "2018-12-31") 
+write_dockerfile(maintainer = "Brendan Palmer", r_date = "2019-03-11") 
 # To write a Dockerfile. It will automatically pick the date of the last 
 # modified file, match it to that version of R and add it here. You can 
 # override this by passing r_date to some arbitrary date

@@ -1,5 +1,5 @@
 # RSS_Belfast_2019
-**Data FAIRification using R/RStudio workflows**
+**Data FAIRification using RStudio workflows**
 
 ## Summary
 As funders seek ways in which the visible research outputs from their support can be maximised, adoption of open science practises are increasingly forming part of emerging funding calls. However, there is little guidance on how to implement these tools, and researchers can be intimidated by the complexity of choice and the multitude of options.
